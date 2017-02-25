@@ -1,0 +1,9 @@
+E:\ano\Workspace\visual studio\Projects\sister\usermanager\usermanager\bin\Release\usermanager.exe.config
+E:\ano\Workspace\visual studio\Projects\sister\usermanager\usermanager\bin\Release\usermanager.exe
+E:\ano\Workspace\visual studio\Projects\sister\usermanager\usermanager\bin\Release\usermanager.pdb
+E:\ano\Workspace\visual studio\Projects\sister\usermanager\usermanager\obj\Release\usermanager.Form1.resources
+E:\ano\Workspace\visual studio\Projects\sister\usermanager\usermanager\obj\Release\usermanager.Properties.Resources.resources
+E:\ano\Workspace\visual studio\Projects\sister\usermanager\usermanager\obj\Release\usermanager.csproj.GenerateResource.Cache
+E:\ano\Workspace\visual studio\Projects\sister\usermanager\usermanager\obj\Release\usermanager.exe
+E:\ano\Workspace\visual studio\Projects\sister\usermanager\usermanager\obj\Release\usermanager.pdb
+E:\ano\Workspace\visual studio\Projects\sister\usermanager\usermanager\obj\Release\usermanager.csprojResolveAssemblyReference.cache

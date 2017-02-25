@@ -1,0 +1,28 @@
+<html>
+<head>
+  <title>Your Title Here</title>
+</head>
+<body>
+<p style="font-size:50px;color:blue;font-weight:bold;font-style:italic">Give it a name</p>
+<div align="center">
+  {% if loginfail %}
+  <p style="font-size:35px;color:red;font-weight:bold">请确保所连接网络安全，并核实服务器地址</p>
+  <form action="/admin" method="post">
+    <legend style="font-size:30px">请输入管理密码:</legend>
+	<p><input rows="1" cols="12" type="password" style="font-size:30px" name="adminpassword"></p>
+	<p style="font-size:30px">请输入要添加的用户名及密码:</p>
+    <p><input rows="1" cols="12" type="text" style="font-size:30px" name="username" value="{{ username }}"></p>
+	<p><input rows="1" cols="12" type="password" style="font-size:30px" name="password"></p>
+    <p><button type="submit" style="font-size:30px">更新</button></p>
+  </form>
+  {% endif %}
+  {% if message %}
+  <p><textarea rows="5" cols="35" type="text" style="font-size:30px">{{ message }}</textarea></p>
+  {% endif %}
+  <footer>
+  <p style="font-size:15px">© Powered by who are you</p>
+  <p style="font-size:15px">Contact me: <a href="mailto:xxx@xxx.com">xxx@xxx.com</a></p>
+  </footer>
+</div>
+</body>
+</html>
